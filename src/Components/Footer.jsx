@@ -10,19 +10,18 @@ const Footer = () => {
               <span className='text-white font-semibold text-xl'>Wallet</span>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 mt-6 lg:mt-0'>
-              <div className='order-2 flex flex-col lg:flex-row space-y-6 lg:space-x-6 text-white font-semibold items-start lg:items-end mt-6 lg:mt-0'>
+              <div className='order-2 lg:order-1 flex flex-col lg:flex-row space-y-6 lg:space-x-6 text-white font-semibold items-start lg:items-end mt-6 lg:mt-0'>
                 <span>Wallet 2022</span>
                 <span>Privacy policy</span>
                 <span>Cookies policy</span>
                 <span>Terms of use</span>
               </div>
-              <div className='flex justify-end order-1'>
-                <div className='w-full'>
+              <div className='flex items-end order-1 lg:order-2'>
+                <div className='w-full flex flex-col'>
                   <span className='text-white'>Updates right to your Inbox</span>
-                  <div className='flex space-y-5 lg:space-x-5 mt-2 flex-col lg:flex-row'>
+                  <div className='flex space-y-5 mt-2 md:mt-0 lg:space-x-5 flex-col lg:flex-row items-start lg:items-end'>
                     <input type="text" placeholder='Email Address' 
-                      className='w-full lg:w-min px-4 py-2 outline-none rounded-lg bg-[#333333] text-neutral-500' />
-
+                      className='w-full px-4 py-2 outline-none rounded-lg bg-[#333333] text-neutral-500 '/>
                     <button className=' bg-nav-btn text-black border-none rounded-lg text-sm w-full lg:w-28 py-2'>
                       Login
                     </button>
